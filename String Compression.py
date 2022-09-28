@@ -1,9 +1,6 @@
-class Solution(object):
-    def compress(self, chars):
-        """
-        :type chars: List[str]
-        :rtype: int
-        """
+class Solution:
+    def compress(self, chars: List[str]) -> int:
+
         length = len(chars)
         start = 0
         end = 0
